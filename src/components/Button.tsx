@@ -9,12 +9,14 @@ const Button = ({
 }) => {
   return (
     <div
-      className={`${color && `text-[${color}]`} ${
-        fill && `bg-[${fill}]`
-      } regularFont border-2 w-fit font-bold  uppercase px-2 py-2 text-[1.7rem] rounded-full`}
+      className={`regularFont border-2 w-fit uppercase font-medium px-5 py-3 text-[1.7rem] rounded-full leading-none`}
+       style={{
+        color: color,
+        backgroundColor: fill,
+      }}
     >
-      <div className="flex items-center font-medium">
-        <span className="mx-4">{text}</span>
+      <div className="flex items-center">
+        <span>{text}</span>
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const Projects = () => {
   return (
-    <div className=" pl-30 mt-40">
+    <div className="pl-30 mt-40">
       <div className="uppercase text-4xl flex items-center gap-2 mb-20">
         <TiStarburst size={40} />
         <div className="text-[#F5EEE6]">Selected projects</div>
@@ -49,12 +49,12 @@ const Projects = () => {
           />
         </div>
       </div>
-      <div className="flex gap-5">
+      <div className="flex gap-5 mt-14">
         <Button color="#F5EEE6" text="Contact me"/>
         <Button fill="#F5EEE6" color="black" text="See more projects"/>
       </div>
     </div>
-  );
+  ); 
 };
 
 export default Projects;

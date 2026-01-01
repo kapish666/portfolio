@@ -1,5 +1,6 @@
 import "./App.css";
 import Available from "./components/Available";
+import Footer from "./components/Footer";
 import Intro from "./components/Intro";
 import MainIntro from "./components/MainIntro";
 import Navbar from "./components/Navbar";
@@ -24,6 +25,7 @@ function App() {
         <Intro />
         <MainIntro />
         <Projects />
+        <Footer/>
       </div>
     </div>
   );
