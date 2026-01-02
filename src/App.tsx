@@ -12,7 +12,7 @@ function App() {
   const navbarOpt = ["work", "about", "contact"];
 
   return (
-    <div className="bg-black text-[#f1cca1] relative">
+    <div className=" text-[#f1cca1] relative">
       <div
         className=" fixed top-0 left-0 w-full h-20
     bg-black/10 backdrop-blur-[12px]
@@ -25,7 +25,7 @@ function App() {
         <Intro />
         <MainIntro />
         <Projects />
-        <Footer/>
+        <Footer />
       </div>
     </div>
   );

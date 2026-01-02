@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: black; /* Fallback color */
+  min-height: 100%;
+}
+
+body {
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#root {
+  min-height: 100%;
+}
